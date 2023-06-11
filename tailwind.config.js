@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        racing: ["RACING","sans-serif"] 
+        racing: ["RACING","sans"],
+        roboto_bold : ["ROBOTO","bold"]
       }
     },
   },

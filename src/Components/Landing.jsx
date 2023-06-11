@@ -14,7 +14,7 @@ function Landing() {
                         <img src={Logo} alt="logo" />
                         Paperpilot
                     </div>
-                    <div></div>
+                    <div className='font-roboto_bold text-white'>AMBA gamba</div>
                     <div></div>
                 </div>
 
