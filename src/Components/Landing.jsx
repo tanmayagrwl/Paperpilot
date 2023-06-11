@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../Assets/logo.png'
-
+import Tag from '../Assets/tag.svg'
 function Landing() {
   return (
     <div className=''>
@@ -14,8 +14,8 @@ function Landing() {
                         <img src={Logo} alt="logo" />
                         Paperpilot
                     </div>
-                    <div className='font-roboto_bold text-white'>AMBA gamba</div>
-                    <div></div>
+                    <div className='font-roboto_bold text-white'>Get your research papers on Autopilot.</div>
+                    <div className=''><img src={Tag} alt="tag" /></div>
                 </div>
 
 
