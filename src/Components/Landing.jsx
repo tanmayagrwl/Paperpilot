@@ -33,8 +33,21 @@ function Landing() {
                 </div>
 
                 {/* grid 2 */}
-                <div className='h-[100vh] w-[100%] bg-pink-700'>
+                <div className='h-[100vh] w-[100%]'>
 
+                    {/* creating flex */}
+                    <div className='flex h-full w-full  justify-end items-center'>
+
+                        {/* box1 */}
+                        <div className='h-[65vh] w-[20vw] bg-[#633BBC] z-10 absolute '></div>
+
+                            {/* box2 */}
+                           {/*  <div className='h-[61vh] w-[20vw] bg-[#633B34] z-20 pl-10 absolutes'>                            </div> */}
+
+                        
+
+                    </div>
+                    
                 </div>
 
             </div>
@@ -43,7 +56,7 @@ function Landing() {
        </div>
 
        {/* footer strip div */}
-       <div className='relative bg-[#8257E5] h-[2vh]'></div>
+       <div className='relative bg-[#8257E5] h-[2vh]  hidden sm:hidden lg:block'></div>
     
 
     </div>
