@@ -39,10 +39,19 @@ function Landing() {
                     <div className='flex h-full w-full  justify-end items-center'>
 
                         {/* box1 */}
-                        <div className='h-[65vh] w-[20vw] bg-[#633BBC] z-10 absolute '></div>
+                        <div className='h-[70vh] w-[20vw] bg-[#633BBC] z-10 absolute rounded-l-3xl'></div>
 
-                            {/* box2 */}
-                           {/*  <div className='h-[61vh] w-[20vw] bg-[#633B34] z-20 pl-10 absolutes'>                            </div> */}
+                        {/* box2 */}
+                        <div className='h-[45vh] w-[10vw] bg-[#714CC2] z-20 mr-9 absolute rounded-r-lg'></div>
+
+                        {/* box3 */}
+                        <div className='h-[50vh] w-[20vw] bg-[#AC97DB] z-20 mr-14 absolute rounded-r-lg'></div>
+
+                        {/* box main */}
+                        <div className='h-[60vh] w-[30vw] bg-white z-20 mr-20 absolute rounded-md'>
+                            
+                        </div>
+
 
                         
 
