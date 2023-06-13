@@ -9,7 +9,7 @@ function Landing() {
        <div className="bg-gradient-to-r from-black to-[#2C2A30] transition-colors duration-500 h-[100vh] sm:h-[100vh] md:h-[98vh] w-screen">
 
             {/* grid formation*/}
-            <div  className='grid grid-cols-1 grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 md:grid-cols-2 md:grid-rows-1'>
+            <div  className='grid grid-cols-1 grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1'>
 
                 {/* grid 1 */}
                 <div className='h-[100vh] w-[100%] pl-10'>
@@ -33,7 +33,7 @@ function Landing() {
                 </div>
 
                 {/* grid 2 */}
-                <div className='h-[100vh] w-[100%] bg-gradient-to-r from-black to-[#2C2A30] transition-colors duration-500 md:bg-none'>
+                <div className='h-[100vh] w-[100%] bg-gradient-to-r from-black to-[#2C2A30] transition-colors duration-500 lg:bg-none'>
 
                     {/* creating flex */}
                     <div className='flex h-full w-full  justify-end items-center'>
@@ -48,7 +48,7 @@ function Landing() {
                         <div className='h-[50vh] w-[20vw] bg-[#AC97DB] z-30 mr-9 sm:mr-9 lg:mr-14 absolute rounded-r-lg'></div>
 
                         {/* box main */}
-                        <div className='h-[60vh] w-[70vw] sm:w-[70vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-lg'>
+                        <div className='h-[60vh] w-[70vw] sm:w-[70vw] md:w-[50vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-lg'>
 
                         </div>
 
@@ -65,7 +65,7 @@ function Landing() {
        </div>
 
        {/* footer strip div */}
-       <div className='relative bg-[#8257E5] h-[2vh]  hidden sm:hidden lg:block'></div>
+       <div className='relative bg-[#8257E5] h-[2vh]  hidden sm:hidden md:block'></div>
     
 
     </div>
