@@ -3,6 +3,7 @@ import Logo from '../Assets/logo.png'
 import Tag from '../Assets/tag.svg'
 import Final from './Final'
 import Select from './Select'
+import Login from './Login'
 function Landing() {
   return (
     /* parent div */
@@ -50,8 +51,8 @@ function Landing() {
                         <div className='h-[50vh] w-[20vw] bg-[#AC97DB] z-30 mr-9 sm:mr-9 lg:mr-14 absolute rounded-r-lg'></div>
 
                         {/* box main */}
-                        <div className='h-[60vh] w-[70vw] sm:w-[70vw] md:w-[50vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-lg'>
-                            <Select />
+                        <div className='h-[60vh] w-[70vw] sm:w-[70vw] md:w-[50vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-xl'>
+                            <Login />
                             
 
                         </div>
