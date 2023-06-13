@@ -1,8 +1,7 @@
 import React from 'react'
 import Logo from '../Assets/logo.png'
 import Tag from '../Assets/tag.svg'
-import Final from './Final'
-function Landing() {
+function Donate() {
   return (
     /* parent div */
     <div className=''>
@@ -50,7 +49,6 @@ function Landing() {
 
                         {/* box main */}
                         <div className='h-[60vh] w-[70vw] sm:w-[70vw] md:w-[50vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-lg'>
-                            <Final />
 
                         </div>
 
@@ -74,4 +72,4 @@ function Landing() {
   )
 }
 
-export default Landing
+export default Donate

@@ -7,7 +7,8 @@ export default {
     extend: {
       fontFamily:{
         racing: ["RACING","sans"],
-        roboto_bold : ["ROBOTO","bold"]
+        roboto_bold : ["ROBOTO","bold"],
+        roboto : ["ROBOROREG","regular"]
       }
     },
   },

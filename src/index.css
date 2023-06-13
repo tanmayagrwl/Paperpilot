@@ -14,4 +14,8 @@
     src: url("./Assets/Fonts/RobotoCondensed-Bold.ttf");
   }
 
+  @font-face {
+    font-family: "ROBOTOREG";
+    src: url("./Assets/Fonts/RobotoCondensed-Regular.ttf");
+  }
 
