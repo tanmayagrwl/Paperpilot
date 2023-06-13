@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../Assets/Logo.png'
-import Tag from '../Assets/tag.svg'
+import Tag from '../Assets/Tag.svg'
 import Final from './Final'
 import Select from './Select'
 import Login from './Login'
