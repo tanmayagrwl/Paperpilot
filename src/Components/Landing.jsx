@@ -45,11 +45,11 @@ function Landing() {
                         <div className='h-[45vh] w-[10vw] bg-[#714CC2] z-20 mr-9 absolute rounded-r-lg'></div>
 
                         {/* box3 */}
-                        <div className='h-[50vh] w-[20vw] bg-[#AC97DB] z-20 mr-14 absolute rounded-r-lg'></div>
+                        <div className='h-[50vh] w-[20vw] bg-[#AC97DB] z-30 mr-14 absolute rounded-r-lg'></div>
 
                         {/* box main */}
-                        <div className='h-[60vh] w-[30vw] bg-white z-20 mr-20 absolute rounded-md'>
-                            
+                        <div className='h-[60vh] w-[30vw] bg-white z-40 mr-20 absolute rounded-md'>
+
                         </div>
 
 
