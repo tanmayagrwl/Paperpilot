@@ -4,6 +4,7 @@ import Tag from '../Assets/tag.svg'
 import Final from './Final'
 import Select from './Select'
 import Login from './Login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function Landing() {
   return (
     /* parent div */
@@ -52,7 +53,20 @@ function Landing() {
 
                         {/* box main */}
                         <div className='h-[60vh] w-[70vw] sm:w-[70vw] md:w-[50vw] lg:w-[30vw] bg-white z-40 mr-14 sm:mr-14 lg:mr-20 absolute rounded-xl'>
-                            <Select />
+                            
+                        <BrowserRouter>
+                            <Routes>
+                                <Route exact path="/" element= {<Login />}/>
+                            </Routes>
+                            
+                            <Routes>
+                                <Route exact path="/select" element= {<Select /> }/>
+                            </Routes>
+
+                            <Routes>
+                                <Route exact path="/final" element= {<Final /> }/>
+                            </Routes>
+                        </BrowserRouter>
                             
 
                         </div>
