@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Assets/logo.png'
+import Logo from '../Assets/Logo.png'
 import Tag from '../Assets/tag.svg'
 import Final from './Final'
 import Select from './Select'
