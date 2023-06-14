@@ -1,14 +1,15 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
-# import pickle
+from model_module import PaperRecommendationModel
 # import model as model_final
 
 import joblib
 
 
-
-app = Flask(__name__)
-model = joblib.load('Backend/paper_recommendation_model.joblib', mmap_mode=None)
+if __name__ == "__main__":
+    app = Flask(__name__)
+    with open('paper_recommendation_model.joblib', 'rb') as f:
+        model = joblib.load(f)
 
 @app.route('/')
 def home():
