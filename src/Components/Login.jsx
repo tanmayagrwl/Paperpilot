@@ -29,7 +29,7 @@ function Login() {
         </Link>
 
 
-        <GoogleOAuthProvider clientId="530224716772-ipb1litagv5le3m3jjr0hojkbhebqf10.apps.googleusercontent.com">
+        {/* <GoogleOAuthProvider clientId="530224716772-ipb1litagv5le3m3jjr0hojkbhebqf10.apps.googleusercontent.com">
             <GoogleLogin
                 onSuccess={credentialResponse => {
                     console.log(credentialResponse)
@@ -38,7 +38,7 @@ function Login() {
                     console.log('Login Failed')
                 }}
             />
-        </GoogleOAuthProvider>
+        </GoogleOAuthProvider> */}
 
 
 
