@@ -5,28 +5,40 @@ from model_module import PaperRecommendationModel
 
 import joblib
 
-
+app = Flask(__name__)
 if __name__ == "__main__":
-    app = Flask(__name__)
+    app.run(debug=True)
     with open('paper_recommendation_model.joblib', 'rb') as f:
         model = joblib.load(f)
 
+
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return {
+        "success": True,
+        "message": "welcome to the api"
+    }
 
-@app.route('/predict',methods=['POST'])
+
+@app.route('/predict', methods=['POST'])
 def predict():
+    interests = request.json.get('interests')
 
-    features = [str(x) for x in request.form.values()]
-    final_features = [np.array(features)]
-    prediction = model.predict(final_features)
+    # with open('paper_recommendation_model.joblib', 'rb') as f:
+    #     model = joblib.load(f)
 
-    output = prediction[0]
+    # # Use the `model` variable for prediction
+    # prediction = model.predict(interests)
 
-    return render_template('index.html', prediction_text='The predicted value is {}'.format(output))
+    print(interests)
 
-@app.route('/predict_api',methods=['POST'])
+    return {
+        "success": True,
+        "interests": f'The predicted value is {prediction}'
+    }
+
+
+@app.route('/predict_api', methods=['POST'])
 def predict_api():
     '''
     For direct API calls trought request
@@ -36,4 +48,4 @@ def predict_api():
 
     # output = prediction[0]
     # return jsonify(output)
-    #return render_template('index.html', prediction_text='The predicted value is {}'.format(output))
+    # return render_template('index.html', prediction_text='The predicted value is {}'.format(output))
