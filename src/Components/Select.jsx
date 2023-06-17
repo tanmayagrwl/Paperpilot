@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Buttons'
+import Btn from './Btn'
 
 
 
-
-
-
-function Select() {
+function Select(props) {
+  const { button } = props;
   return (
     <form action="" className='flex flex-col h-[100%] w-[100%] justify-center items-center'>
     
@@ -15,11 +15,14 @@ function Select() {
         I want to read about...
       </div>
       
-      {/* Add map here */}
+      {props.button.map((el) =>{
+         return <Btn name = {el.name} />; 
+      
+    })}
 
         <Link to="/final">
           <button className='h-10 w-52 text-xl font-roboto bg-[#714CC2] hover:bg-[#8257E5] cursor-pointer rounded-md xl border border-x-1 border-y-1 border-solid border-[#16161d] shadow-xl text-white shadow-[#714CC2]'>
-                Select
+              Select
           </button>
         </Link>
         

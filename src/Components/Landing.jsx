@@ -5,6 +5,51 @@ import Final from './Final'
 import Select from './Select'
 import Login from './Login'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './Buttons'
+
+const button = [
+    {
+        name: "Security and Privacy"
+    },
+    {
+        name: "Robotics"
+    },
+    {
+        name: "Mathematics"
+    },
+    {
+        name: "Physics"
+    }, {
+        name: "Chemistry"
+    }, {
+        name: "Biology"
+    }, {
+        name: "Computer Science"
+    }, {
+        name: "Machine Learning"
+    }, {
+        name: "Artificial Intelligence"
+    }, {
+        name: "Quantum"
+    }, {
+        name: "Electrical"
+    }, {
+        name: "Mechanical"
+    }, {
+        name: "Civil"
+    }, {
+        name: "Arts"
+    }, {
+        name: "Design"
+    }, {
+        name: "Architecture"
+    }, {
+        name: "Power"
+    },
+
+];
+
+
 function Landing() {
   return (
     /* parent div */
@@ -60,7 +105,7 @@ function Landing() {
                             </Routes>
                             
                             <Routes>
-                                <Route exact path="/select" element= {<Select /> }/>
+                                <Route exact path="/select" element= {<Select button = {button} /> }/>
                             </Routes>
 
                             <Routes>

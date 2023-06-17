@@ -1,4 +1,4 @@
-button = [
+const button = [
     {
         name: "Security and Privacy"
     },
@@ -38,4 +38,4 @@ button = [
         name: "Power"
     },
 
-]
+];
