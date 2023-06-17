@@ -4,6 +4,7 @@ import Tag from '../Assets/Tag.svg'
 import Final from './Final'
 import Select from './Select'
 import Login from './Login'
+import Error from './Error'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './Buttons'
 
@@ -110,6 +111,9 @@ function Landing() {
 
                             <Routes>
                                 <Route exact path="/final" element= {<Final /> }/>
+                            </Routes>
+                            <Routes>
+                                <Route exact path="*" element= {<Error /> }/>
                             </Routes>
                         </BrowserRouter>
                             
