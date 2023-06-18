@@ -102,18 +102,10 @@ function Landing() {
                             
                         <BrowserRouter>
                             <Routes>
-                               
-                                    <Route exact path="/" element= {<Login />}/>
-                                    
-                                
-                            </Routes>
-                            
-                            <Routes>
+                                <Route exact path="/" element= {<Login />}/>
                                 <Route exact path="/select" element= {<Select button = {button} /> }/>
-                            </Routes>
-
-                            <Routes>
                                 <Route exact path="/final" element= {<Final /> }/>
+                                <Route exact path='*' element = {<Error />} />
                             </Routes>
                             
                         </BrowserRouter>
