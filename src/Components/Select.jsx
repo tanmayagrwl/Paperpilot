@@ -20,11 +20,11 @@ function Select(props) {
 
     <div className=' flex flex-col items-center w-[90%] h-[50%] overflow-y-scroll mb-10'>
 
-      {props.button.map((el) =>{
-         return <Btn name = {el.name} />; 
+      {props.button.map((el) => {
+         return <Btn key={el.key} name = {el.name} />; 
       
-    })}
-  </div>
+      })}
+    </div>
 
 
 
