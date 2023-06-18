@@ -18,7 +18,7 @@ function Select(props) {
 
 
 
-    <div className=' flex flex-col items-center w-[100%] h-[50%] overflow-y-scroll mb-10'>
+    <div className=' flex flex-col items-center w-[90%] h-[50%] overflow-y-scroll mb-10'>
 
       {props.button.map((el) =>{
          return <Btn name = {el.name} />; 

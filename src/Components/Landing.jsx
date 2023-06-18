@@ -56,7 +56,7 @@ function Landing() {
     /* parent div */
     <div className=''>
         {/*transition div  to-[#2C2A30] */}
-       <div className="bg-gradient-to-r from-black to-[#2C2A30] transition-colors duration-500 h-[100vh] sm:h-[100vh] md:h-[98vh] w-screen">
+       <div className="bg-gradient-to-r from-black to-[#2C2A30] transition-colors duration-500 h-[100vh] sm:h-[100vh] md:h-[98vh] w-full">
 
             {/* grid formation*/}
             <div  className='grid grid-cols-1 grid-rows-2 sm:grid-cols-1 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1'>
@@ -102,7 +102,10 @@ function Landing() {
                             
                         <BrowserRouter>
                             <Routes>
-                                <Route exact path="/" element= {<Login />}/>
+                               
+                                    <Route exact path="/" element= {<Login />}/>
+                                    
+                                
                             </Routes>
                             
                             <Routes>
