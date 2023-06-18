@@ -112,9 +112,7 @@ function Landing() {
                             <Routes>
                                 <Route exact path="/final" element= {<Final /> }/>
                             </Routes>
-                            <Routes>
-                                <Route exact path="*" element= {<Error /> }/>
-                            </Routes>
+                            
                         </BrowserRouter>
                             
 
