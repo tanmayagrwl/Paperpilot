@@ -4,13 +4,22 @@
 	"description": "backend api for research paper recommendation ",
 	"scripts": {
 		"dev": "tsc-watch --onSuccess \"node ./build/app.js\"",
-		"start": "node app.js"
+		"start": "node index.ts",
+		"build": "tsc"
 	},
-	"main": "app.js",
+	"main": "index.ts",
 	"author": "tripsterxx",
 	"license": "MIT",
 	"dependencies": {
 		"express": "^4.18.2",
+		"axios": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express-rate-limit": "^6.7.0",
+		"helmet": "^7.0.0",
+		"nanoid": "^3.3.6",
+		"winston": "^3.8.2",
+		"zod": "^3.21.4",
 		"tsc-watch": "^6.0.4"
 	},
 	"devDependencies": {
