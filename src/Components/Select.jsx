@@ -26,7 +26,7 @@ function Select(props) {
 
 
 
-    <div className=' flex flex-col items-center w-[90%] h-[50%] overflow-y-scroll mb-10 scrollbar-thin scrollbar-thumb-[#633BBC] scrollbar-thumb-rounded-md scrollbar-track-rounded-md scrollbar-track-[#AC97DB]'>
+    <div className=' flex flex-col items-center w-[90%] h-[50%] overflow-y-scroll mb-10 scrollbar-thin scrollbar-thumb-[#633BBC] scrollbar-thumb-rounded-lg scrollbar-track-rounded-lg scrollbar-track-[#AC97DB]'>
 
       {props.button.map((el) => {
          return <Btn key={el.key} name = {el.name} selectedCount={selectedCount} setSelectedCount={setSelectedCount} />; 
