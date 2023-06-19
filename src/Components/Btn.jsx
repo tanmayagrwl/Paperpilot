@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
+
+
 function Btn(props) {
   const [bgColor, setBgColor] = useState('bg-[#FFFDD0]');
-  const [selectedCount, setSelectedCount] = useState(0);
+  const {setSelectedCount,selectedCount }=props
+
 
   const handleClick = (event) => {
     event.preventDefault();
