@@ -19,7 +19,7 @@ function Select(props) {
           I want to read about...
         </div>
         <div className='font-roboto text-xs sm:text-xs lg:text-md font-semibold  pb-3 text-center'> 
-          Please choose three of your interests 
+          Please choose any three of your interests 
         </div>
       </div>
       
