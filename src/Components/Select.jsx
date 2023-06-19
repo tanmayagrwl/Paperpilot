@@ -14,9 +14,13 @@ function Select(props) {
   return (
     <form action="" className='flex flex-col h-[100%] w-[100%] justify-around items-center p-5'>
     
-      
-      <div className='font-roboto_bold text-2xl pb-8'>
-        I want to read about...
+      <div>
+        <div className='font-roboto_bold text-2xl pb-8'>
+          I want to read about...
+        </div>
+        <div className='font-roboto text-md font-semibold  pb-3 text-center'> 
+          Please choose three of your imterests
+        </div>
       </div>
       
 
