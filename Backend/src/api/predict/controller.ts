@@ -5,7 +5,7 @@ interface JsonData {
 }
 
 const paperRecommendationsjson = fs.readFileSync(
-  "../../shared/recommendations.json",
+  "./src/shared/recommendations.json",
   "utf-8"
 );
 const paperRecommendations: JsonData = JSON.parse(paperRecommendationsjson);
