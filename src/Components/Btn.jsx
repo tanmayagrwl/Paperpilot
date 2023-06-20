@@ -2,21 +2,38 @@ import React, { useState } from 'react';
 
 
 
+
+
 function Btn(props) {
-  const [bgColor, setBgColor] = useState('bg-[#FFFDD0] hover:bg-[#AC97DB] active:bg-[#633BBC]');
-  const {setSelectedCount,selectedCount }=props
+/*   const [isButtonDisabled, setIsButtonDisabled] = useState(false)*/
+  const selectedColor = 'bg-[#714CC2] hover:bg-[#714CC2] active:bg-[#633BBC]'
+  const defaultColor = 'bg-[#FFFDD0] hover:bg-[#AC97DB] active:bg-[#633BBC]'
+  const {setSelectedFields,selectedFields }=props
 
 
-  const handleClick = (event) => {
-    event.preventDefault();
-    setBgColor('bg-[#714CC2] hover:bg-[#714CC2] active:bg-[#633BBC]');
+  const handleClick = () => {
+    if (selectedFields.has(
+      props.name
+    )){
+      setSelectedFields((previousFields)=>{
+         previousFields.delete(props.name)
+         return new Set(previousFields.values())
+      } )
+    
+    }
+    else{
+      setSelectedFields((previousFields)=>{
+        previousFields.add(props.name)
+        return new Set(previousFields.values())
+      } )
 
-    if (selectedCount < 3) {
-      setSelectedCount(selectedCount + 1);
     }
   };
 
-  const isButtonDisabled = selectedCount >= 3;
+  const bgColor = selectedFields.has(props.name)? selectedColor : defaultColor
+  const isButtonDisabled = !selectedFields.has(props.name) && selectedFields.size > 2
+
+
 
   return (
     <div>
