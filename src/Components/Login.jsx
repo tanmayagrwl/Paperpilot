@@ -3,6 +3,11 @@ import google from "../Assets/google.png";
 import github from "../Assets/github.png";
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
+import { useNavigate } from 'react-router-dom';
+
+
+
+
 
 function Login() {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -34,6 +39,14 @@ function Login() {
       </div>
     );
   }
+
+  const navigate = useNavigate();
+  React.useEffect(() => {
+    const redirectTimer = setTimeout(() => {
+      navigate("/select");
+    }, 2000);
+    return () => clearTimeout(redirectTimer);
+  }, [navigate]);
 
   return (
     <div className="w-[100%] h-[100%] flex flex-col items-center justify-center">
