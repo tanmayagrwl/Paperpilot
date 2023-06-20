@@ -17,7 +17,7 @@ function Login() {
     return (
       <div className="w-[100%] h-[100%] flex flex-col items-center justify-center">
         <div className="font-roboto_bold underline text-2xl mb-8 text-center">
-          Loading ...
+          Loading...please be patient
         </div>
       </div>
     );
