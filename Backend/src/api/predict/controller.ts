@@ -1,4 +1,16 @@
-const PredictPapers = async (interests: any, paperRecommendations: any) => {
+import fs from "fs";
+
+interface JsonData {
+  [key: string]: string[][];
+}
+
+const paperRecommendationsjson = fs.readFileSync(
+  "../../shared/recommendations.json",
+  "utf-8"
+);
+const paperRecommendations: JsonData = JSON.parse(paperRecommendationsjson);
+
+const PredictPapers = async (interests: any) => {
   const filteredData: any = {};
   const randomData: { [key: string]: { title: string; id: string } } = {};
   for (const key of interests) {
