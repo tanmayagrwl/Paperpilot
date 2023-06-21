@@ -54,7 +54,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
   <p>
  </div>
 
-## Authors of <strong>Paperpilot</strong>
+## Authors of <strong>Paperpilot</strong> ✍🏼
 
 <div align="center"> 
   <table>
