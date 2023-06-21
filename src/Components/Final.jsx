@@ -26,7 +26,7 @@ function Final() {
 
          :
          <>
-         <p className='font-roboto_bold text-3xl pb-12 ml-14 sm:ml-14 md:ml-0'>
+         <p className='font-roboto_bold text-3xl pb-12 ml-14 sm:ml-14 md:ml-0 text-center items-center content-center'>
             Thank you for subscribing
         </p>
         <button className='h-14 w-56 text-xl font-roboto bg-[#714CC2] hover:bg-[#8257E5] rounded-full xl border border-x-4 border-y-4 border-solid border-[#16161d] shadow-lg shadow-[#714CC2] text-[#FFFDD0]'>
