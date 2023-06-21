@@ -1,4 +1,5 @@
-# Paper-Pilot
+# Paper-Pilot - Get your research papers on Autopilot
+
 ### AI based research-paper recommendation with E-mail services  📚🦾
 PaperPilot is an innovative research paper recommendation system that leverages artificial intelligence to provide personalized recommendations to researchers and scholars. With its powerful algorithms and integration of email services, PaperPilot aims to streamline the process of discovering relevant research papers and keeping users updated with the latest findings in their field.
 
