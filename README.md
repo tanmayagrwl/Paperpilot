@@ -139,6 +139,8 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 </div>
 
 
+<a href="#paper-pilot">Back to Top</a>
+
 
 
 
