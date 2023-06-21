@@ -9,7 +9,7 @@ function Final() {
     setLoading(true)
     setTimeout(()=> {
      setLoading(false)
-    }, 1000)
+    }, 15000)
   },[])
 
   return (
