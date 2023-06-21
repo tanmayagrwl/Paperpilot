@@ -26,7 +26,13 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 ## Email service
 
-## Scope of Improvements:
+## Scope of Improvements
+
+## License 📜
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 
 
