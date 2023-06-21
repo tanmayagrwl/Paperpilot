@@ -14,7 +14,10 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 * Express.js and Flask Integration: PaperPilot is powered by Express.js on the backend, providing a robust and scalable infrastructure for efficient data processing and recommendation generation. Flask, a Python web framework, is also utilized to handle specific functionalities seamlessly.
 
 ## Important Links and Resources -
-
+- [Use Paperpilot]()
+- [Demo Video]()
+- [Presentation]()
+  
 
 ## Screenshots of Web-app-
 ![1](https://github.com/aryanraj2713/Paperpilot/assets/75358720/aa1ba60d-f26b-45a6-a52f-eb08dcc05464)
@@ -27,12 +30,108 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 ## Email service
 
 ## Scope of Improvements
+* Adding more data to the models so that users can get more options to read.
+* Trying more complex ML-based models like LSTMs and Neural Networks.
+* Adding option to set frequency of mails from the dashboard itself.
+
+
+
+
 
 ## License 📜
 
-This project is licensed under the [MIT License](LICENSE).
+ <div align="left">
+ <p>
+ <br>
+   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?logo=Microsoft%20Word&style=for-the-badge" height="28"/><br>
+   <br><strong>Paperpilot</strong> is under MIT License, Please Read the <strong>LICENSE</strong>
+  <p>
+ </div>
 
----
+## Authors of <strong>Paperpilot</strong>
+
+<div align="center"> 
+  <table>
+<tr align="center">
+ <td>
+
+#### Aryan Raj
+<p align="center">
+<img src = "https://avatars.githubusercontent.com/u/75358720?v=4"  height="120" alt="Aryan Raj">
+</p>
+<p align="center">
+<a href = "https://github.com/aryanraj2713"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aryan-raj-3a68b39a/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+ <strong>ML & Front-End Developer<strong>
+</td>
+
+
+ <td>
+
+#### Tanmay Agrawal
+<p align="center">
+<img src = "https://media.licdn.com/dms/image/D5603AQH1f5_AIgXPVg/profile-displayphoto-shrink_400_400/0/1679384347206?e=1692835200&v=beta&t=sUSKTbNXbxNZAqyxHGph-I1y8kJX_NI_4MB-F40aCbE"  height="120" alt="Astitva">
+</p>
+<p align="center">
+<a href = "https://github.com/tanmayagr"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://media.licdn.com/dms/image/D5603AQH1f5_AIgXPVg/profile-displayphoto-shrink_400_400/0/1679384347206?e=1692835200&v=beta&t=sUSKTbNXbxNZAqyxHGph-I1y8kJX_NI_4MB-F40aCbE">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+ <strong>Front-End Developer<strong>
+
+
+   
+
+ <td>
+
+#### Mohd Zaid
+<p align="center">
+<img src = "https://avatars.githubusercontent.com/u/36443577?v=4"  height="120" >
+</p>
+<p align="center">
+<a href = "https://github.com/dev-zaid"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/mohd-zaid-17713221a/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+ <strong>MERN Stack Developer<strong>
+</td>
+  <td>
+
+#### Aakash Rawat 
+<p align="center">
+<img src = "https://media.licdn.com/dms/image/D5603AQEw-NL_yEYF5w/profile-displayphoto-shrink_400_400/0/1672065785362?e=1692835200&v=beta&t=gMjrAEkVomIhpSynFEnN6eRXS5r-bH3zWy8qY5XFzGs"  height="120" >
+</p>
+<p align="center">
+<a href = "https://github.com/AakashRawat04"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aakash-rawat-a1a528236/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+ <strong>Backend Developer<strong>
+</td>
+
+<td>
+
+#### Mathangy K
+<p align="center">
+<img src = "https://media.licdn.com/dms/image/D5603AQF-OXPN95O0Jg/profile-displayphoto-shrink_400_400/0/1682697491327?e=1692835200&v=beta&t=Dwm-B-49U9zD-F7Qys3YEO4eN35l_xYiq47esH6sUQI"  height="120" >
+</p>
+<p align="center">
+<a href = "https://github.com/mkswagger"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/mathangy-k/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+ <strong>ML/DL Developer<strong>
+</td>
+
+</div>
+
 
 
 
