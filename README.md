@@ -44,7 +44,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 
 
-## License 📜
+## License and Contribution Guidelines 📜
 
  <div align="left">
  <p>
@@ -53,6 +53,9 @@ PaperPilot is an innovative research paper recommendation system that leverages 
    <br><strong>Paperpilot</strong> is under MIT License, Please Read the <strong>LICENSE</strong>
   <p>
  </div>
+ We value keeping this site open source, but as you all know, plagiarism is bad. We spent a non-negligible amount of effort developing, designing, and trying to perfect this iteration of our website, and we are proud of it! All we ask is to not claim this effort as your own.
+
+So, feel free to fork this repo. If you do, please just give us proper credit.Refer to this handy file <strong>Contributing.md</strong> if you're not sure what to do we would. Thanks!
 
 ## Authors of <strong>Paperpilot</strong> ✍🏼
 
