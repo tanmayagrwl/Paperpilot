@@ -1,8 +1,9 @@
-# Paper-Pilot
-### AI based research-paper recommendation with E-mail services.
+# Paper-Pilot - Get your research papers on Autopilot
+
+### AI based research-paper recommendation with E-mail services  📚🦾
 PaperPilot is an innovative research paper recommendation system that leverages artificial intelligence to provide personalized recommendations to researchers and scholars. With its powerful algorithms and integration of email services, PaperPilot aims to streamline the process of discovering relevant research papers and keeping users updated with the latest findings in their field.
 
-## Key features-
+## Key features 🔍-
 * Advanced Recommendation Algorithms: PaperPilot employs a combination of TF-IDF and KNN-like algorithms to cluster research papers based on their content and similarity. This ensures accurate and tailored recommendations to suit each user's interests.
 
 * Custom Dataset: PaperPilot's dataset is meticulously curated by scraping research papers from the IEEE website. This guarantees a vast collection of high-quality academic papers across various domains.
@@ -13,13 +14,13 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 * Express.js and Flask Integration: PaperPilot is powered by Express.js on the backend, providing a robust and scalable infrastructure for efficient data processing and recommendation generation. Flask, a Python web framework, is also utilized to handle specific functionalities seamlessly.
 
-## Important Links and Resources -
+## Important Links and Resources 📃 -
 - [Use Paperpilot]()
 - [Demo Video]()
 - [Presentation]()
   
 
-## Screenshots of Web-app-
+## Screenshots of Web-app 💻-
 ![1](https://github.com/aryanraj2713/Paperpilot/assets/75358720/aa1ba60d-f26b-45a6-a52f-eb08dcc05464)
 
 
@@ -27,12 +28,17 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 
 
-## Email service
+## Email service 📬
 
-## Scope of Improvements
-* Adding more data to the models so that users can get more options to read.
-* Trying more complex ML-based models like LSTMs and Neural Networks.
-* Adding option to set frequency of mails from the dashboard itself.
+## Scope of Improvements 🔬
+
+* Increase dataset size by including papers from additional reputable sources.
+* Add flexibility for users to customize email frequency from the dashboard.
+* Explore advanced machine learning models like LSTMs and Transformers.
+* Enhance user experience through improved UI/UX, search functionality, and customization options.
+* Fine-tune recommendation algorithms based on user feedback and evaluation.
+* Implement paper rating and feedback system for users.
+* Introduce collaboration and social features like sharing papers and discussion forums.
 
 
 
@@ -48,7 +54,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
   <p>
  </div>
 
-## Authors of <strong>Paperpilot</strong>
+## Authors of <strong>Paperpilot</strong> ✍🏼
 
 <div align="center"> 
   <table>
