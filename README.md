@@ -31,6 +31,9 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 ## Email service 📬
 
+![WhatsApp Image 2023-06-23 at 16 45 01](https://github.com/tanmayagrwl/Paperpilot/assets/75358720/68855f61-26d5-4f96-a8b6-efada009f76e)
+
+
 ## Scope of Improvements 🔬
 
 * Increase dataset size by including papers from additional reputable sources.
