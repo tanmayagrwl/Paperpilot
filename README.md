@@ -21,12 +21,12 @@ PaperPilot is an innovative research paper recommendation system that leverages 
   
 
 ## Screenshots of Web-app 💻-
-![1](https://github.com/aryanraj2713/Paperpilot/assets/75358720/aa1ba60d-f26b-45a6-a52f-eb08dcc05464)
 
-![Paper-Pilot](https://github.com/tanmayagrwl/Paperpilot/assets/75358720/2bbf3354-569e-4d32-a75c-2f1516e93505)
-
+![1](https://github.com/tanmayagrwl/Paperpilot/assets/75358720/6ed32c3f-6374-4f35-94f8-f52b7d608f92)
 
 
+
+![2](https://github.com/tanmayagrwl/Paperpilot/assets/75358720/13f601c8-435b-4ca9-890c-810e479e5b76)
 
 
 ## Email service 📬
