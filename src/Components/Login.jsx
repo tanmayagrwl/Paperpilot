@@ -60,17 +60,6 @@ function Login() {
       <div className="font-bold text-2xl mb-8 text-[#714CC2]">
         Welcome {user.name}
       </div>
-
-      {/* <GoogleOAuthProvider clientId="530224716772-ipb1litagv5le3m3jjr0hojkbhebqf10.apps.googleusercontent.com">
-            <GoogleLogin
-                onSuccess={credentialResponse => {
-                    console.log(credentialResponse)
-                }}
-                onError={() => {
-                    console.log('Login Failed')
-                }}
-            />
-        </GoogleOAuthProvider> */}
     </div>
   );
 }

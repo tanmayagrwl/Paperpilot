@@ -9,6 +9,33 @@ function Select(props) {
   
 
   const [selectedFields , setSelectedFields] = useState(new Set())
+  const selectedFieldsArray = [...selectedFields];
+  const selectedInterests = [];
+  selectedInterests.push(...selectedFieldsArray);
+
+  function Fetch() {
+    const data = {
+      email: "abc@gmail.com",
+      interests: selectedInterests,
+    };
+  
+    fetch("http://localhost:5050", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+      .then(response => response.json())
+      .then(responseData => {
+        // Handle the response data
+        console.log(responseData);
+      })
+      .catch(error => {
+        // Handle the error
+        console.error(error);
+      });
+    }
 
 
 
@@ -42,7 +69,7 @@ function Select(props) {
 
 
         <Link to="/final">
-          <button className='h-10 w-52 text-xl font-roboto bg-[#714CC2] hover:bg-[#8257E5] cursor-pointer rounded-md xl border border-x-1 border-y-1 border-solid border-[#16161d] shadow-xl text-white shadow-[#714CC2]'>
+          <button className='h-10 w-52 text-xl font-roboto bg-[#714CC2] hover:bg-[#8257E5] cursor-pointer rounded-md xl border border-x-1 border-y-1 border-solid border-[#16161d] shadow-xl text-white shadow-[#714CC2]' onClick={Fetch}>
               Select
           </button>
         </Link>
