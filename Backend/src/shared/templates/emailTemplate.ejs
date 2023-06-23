@@ -597,6 +597,7 @@
                             color: #000000;
                           "
                         >
+                          <% for (let i = 0; i < titles.length; i++) { %>
                           <p
                             style="
                               font-size: 11px;
@@ -611,49 +612,12 @@
                                   font-family: Poppins, sans-serif;
                                 "
                                 ><span style="font-size: 26px"
-                                  >&lt;%= Title1%&gt;</span
+                                  ><%= titles[i] %></span
                                 ></span
                               ></strong
                             >
                           </p>
-                          <p
-                            style="
-                              font-size: 11px;
-                              font-family: Ubuntu, Helvetica, Arial;
-                              text-align: center;
-                            "
-                          >
-                            <strong
-                              ><span
-                                style="
-                                  color: #d81dbf;
-                                  font-family: Poppins, sans-serif;
-                                "
-                                ><span style="font-size: 26px"
-                                  >&lt;%= Title2%&gt;</span
-                                ></span
-                              ></strong
-                            >
-                          </p>
-                          <p
-                            style="
-                              font-size: 11px;
-                              font-family: Ubuntu, Helvetica, Arial;
-                              text-align: center;
-                            "
-                          >
-                            <strong
-                              ><span
-                                style="
-                                  color: #d81dbf;
-                                  font-family: Poppins, sans-serif;
-                                "
-                                ><span style="font-size: 26px"
-                                  >&lt;%= Title3%&gt;</span
-                                ></span
-                              ></strong
-                            >
-                          </p>
+                          <% } %>
                           <p
                             style="
                               font-size: 11px;
