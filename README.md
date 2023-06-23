@@ -24,7 +24,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 ![1](https://github.com/aryanraj2713/Paperpilot/assets/75358720/aa1ba60d-f26b-45a6-a52f-eb08dcc05464)
 
 
-![2](https://github.com/aryanraj2713/Paperpilot/assets/75358720/afd7c944-4c5d-4be8-bd71-8221cabf5457)
+![2](./src/Assets/Paper-Pilot.png)
 
 
 
