@@ -9,14 +9,13 @@ function Select(props) {
   
 
   const [selectedFields , setSelectedFields] = useState(new Set())
-  const selectedFieldsArray = [...selectedFields];
-  const selectedInterests = [];
-  selectedInterests.push(...selectedFieldsArray);
+  const [selectedButtonNames, setSelectedButtonNames] = useState([]);
+
 
   function Fetch() {
     const data = {
       email: "abc@gmail.com",
-      interests: selectedInterests,
+      interests: selectedButtonNames,
     };
   
     fetch("http://localhost:5050", {
@@ -58,7 +57,7 @@ function Select(props) {
     <div className=' flex flex-col items-center w-[90%] h-[50%] overflow-y-scroll mb-10 scrollbar-thin scrollbar-thumb-[#633BBC] scrollbar-thumb-rounded-lg scrollbar-track-rounded-lg scrollbar-track-[#AC97DB]'>
 
       {props.button.map((el) => {
-         return <Btn key={el.key} name = {el.name} selectedFields={selectedFields} setSelectedFields={setSelectedFields} />; 
+         return <Btn key={el.key} name = {el.name} selectedFields={selectedFields} setSelectedFields={setSelectedFields} selectedButtonNames={selectedButtonNames} setSelectedButtonNames={setSelectedButtonNames} />; 
       
       })}
     </div>

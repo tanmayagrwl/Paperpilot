@@ -8,7 +8,7 @@ function Btn(props) {
 /*   const [isButtonDisabled, setIsButtonDisabled] = useState(false)*/
   const selectedColor = 'bg-[#714CC2] hover:bg-[#714CC2] active:bg-[#633BBC]'
   const defaultColor = 'bg-[#FFFDD0] hover:bg-[#AC97DB] active:bg-[#633BBC]'
-  const {setSelectedFields,selectedFields }=props
+  const {setSelectedFields,selectedFields,setSelectedButtonNames,selectedButtonName }=props
 
 
   const handleClick = () => {
@@ -19,13 +19,14 @@ function Btn(props) {
          previousFields.delete(props.name)
          return new Set(previousFields.values())
       } )
-    
+      setSelectedButtonNames((previousNames)=>previousNames.filter((n)=> n!==props.name))
     }
     else{
       setSelectedFields((previousFields)=>{
         previousFields.add(props.name)
         return new Set(previousFields.values())
       } )
+      setSelectedButtonNames((previousNames)=>[...previousNames, props.name])
 
     }
   };
