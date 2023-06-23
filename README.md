@@ -15,7 +15,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 * Express.js and Flask Integration: PaperPilot is powered by Express.js on the backend, providing a robust and scalable infrastructure for efficient data processing and recommendation generation. Flask, a Python web framework, is also utilized to handle specific functionalities seamlessly.
 
 ## Important Links and Resources 📃 -
-- [Use Paperpilot]()
+- [Use Paperpilot](https://paper-pilot.vercel.app/)
 - [Demo Video]()
 - [Presentation]()
   
@@ -23,8 +23,9 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 ## Screenshots of Web-app 💻-
 ![1](https://github.com/aryanraj2713/Paperpilot/assets/75358720/aa1ba60d-f26b-45a6-a52f-eb08dcc05464)
 
+![Paper-Pilot](https://github.com/tanmayagrwl/Paperpilot/assets/75358720/2bbf3354-569e-4d32-a75c-2f1516e93505)
 
-![2](https://github.com/aryanraj2713/Paperpilot/assets/75358720/afd7c944-4c5d-4be8-bd71-8221cabf5457)
+
 
 
 
