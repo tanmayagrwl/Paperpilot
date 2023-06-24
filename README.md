@@ -46,6 +46,8 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 `https://paperpilot-production.up.railway.app`
 
+ *PS: use **/api** as prefix to endpoints*
+
 ## Installation 🔧
 
 1. Client
