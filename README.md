@@ -1,5 +1,11 @@
 # Paper-Pilot - Get your research papers on Autopilot
 
+
+## Important Links and Resources 📃 -
+- [Use Paperpilot](https://paper-pilot.vercel.app/)
+- [Demo Video]()
+- [Presentation](https://www.canva.com/design/DAFmdv2FO94/6omhOuxT2cRa-DJXr7Cqvw/edit?utm_content=DAFmdv2FO94&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  
 ### AI based research-paper recommendation with E-mail services  📚🦾
 PaperPilot is an innovative research paper recommendation system that leverages artificial intelligence to provide personalized recommendations to researchers and scholars. With its powerful algorithms and integration of email services, PaperPilot aims to streamline the process of discovering relevant research papers and keeping users updated with the latest findings in their field.
 
@@ -10,14 +16,9 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 
 * User-Friendly Front End: The front end of PaperPilot is built using React, providing a seamless and intuitive user experience. The integration of Google Authentication ensures secure access to the platform. Web-app is completely responsive and can be used for any type of screen.
 
-* AWS Email Services: PaperPilot leverages the power of AWS email services to deliver periodic research paper recommendations directly to users' email inboxes. This ensures that users stay informed about the latest developments in their field without any hassle.
+* AWS Simple Email Services: PaperPilot leverages the power of AWS SES to deliver periodic research paper recommendations directly to users' email inboxes. This ensures that users stay informed about the latest developments in their field without any hassle.
 
 * Express.js and Flask Integration: PaperPilot is powered by Express.js on the backend, providing a robust and scalable infrastructure for efficient data processing and recommendation generation. Flask, a Python web framework, is also utilized to handle specific functionalities seamlessly.
-
-## Important Links and Resources 📃 -
-- [Use Paperpilot](https://paper-pilot.vercel.app/)
-- [Demo Video]()
-- [Presentation](https://www.canva.com/design/DAFmdv2FO94/6omhOuxT2cRa-DJXr7Cqvw/edit?utm_content=DAFmdv2FO94&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   
 
 ## Screenshots of Web-app 💻-
