@@ -47,10 +47,11 @@ const sendPaperToEmail = async (email: string, titles: Array<string>) => {
     try {
       const renderedHtml = ejs.render(template, { titles });
       await sendMail(
-        ["zaid.tab123@gmail.com"],
+        [email],
         "Your Research Paper from Paperpilot",
         renderedHtml!
       );
+      console.log("Email Sent Successfully to " + email);
     } catch (error) {
       throw Error("Error in Generating Template");
     }
