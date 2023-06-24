@@ -1,16 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Buttons";
+import { useAuth0 } from "@auth0/auth0-react";
 import Btn from "./Btn";
 
 function Select(props) {
   const [selectedFields, setSelectedFields] = useState(new Set());
   const [selectedButtonNames, setSelectedButtonNames] = useState([]);
 
-  const { email } = props;
+  const { user, isAuthenticated, isLoading } = useAuth0();
+  if (isAuthenticated) {
+    console.log(user.email);
+  }
+
   function Fetch() {
     const data = {
-      email: email,
+      email: user.email,
       interests: selectedButtonNames,
     };
 
