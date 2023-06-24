@@ -597,7 +597,7 @@
                             color: #000000;
                           "
                         >
-                          <% for (let i = 0; i < titles.length; i++) { %>
+                          <% for (let i = 0; i < data.length; i++) { %>
                           <p
                             style="
                               font-size: 11px;
@@ -612,11 +612,21 @@
                                   font-family: Poppins, sans-serif;
                                 "
                                 ><span style="font-size: 26px"
-                                  ><%= titles[i] %></span
+                                  ><%= data[i].interest %></span
                                 ></span
                               ></strong
                             >
+                            <p><span
+                              style="
+                                color: #d81dbf;
+                                font-family: Poppins, sans-serif;
+                              "
+                              ><span style="font-size: 18px"
+                                ><%= data[i].title %></span
+                              ></span
+                            ></p>
                           </p>
+                          <hr />
                           <% } %>
                           <p
                             style="

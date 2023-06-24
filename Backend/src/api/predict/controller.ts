@@ -8,6 +8,12 @@ interface JsonData {
   [key: string]: string[][];
 }
 
+interface ResearchPaperData {
+  [key: string]: {
+    [x: string]: string;
+  };
+}
+
 const paperRecommendationsjson = fs.readFileSync(
   "./src/shared/recommendations.json",
   "utf-8"
@@ -16,11 +22,7 @@ const paperRecommendations: JsonData = JSON.parse(paperRecommendationsjson);
 
 const PredictPapers = async (interests: string[]) => {
   const filteredData: any = {};
-  const randomData: {
-    [key: string]: {
-      [x: string]: string;
-    };
-  } = {};
+  const randomData: ResearchPaperData = {};
   for (const key of interests) {
     if (paperRecommendations.hasOwnProperty(key)) {
       filteredData[key] = paperRecommendations[key];
@@ -38,14 +40,23 @@ const PredictPapers = async (interests: string[]) => {
   return randomData;
 };
 
-const sendPaperToEmail = async (email: string, titles: Array<string>) => {
+const sendPaperToEmail = async (email: string, titles: ResearchPaperData) => {
   try {
     const template = await fsp.readFile(
       path.join(__dirname, "../../shared/templates/emailTemplate.ejs"),
       "utf8"
     );
+    const predictedData = titles;
+    var data = [];
+    for (const keys in predictedData) {
+      if (predictedData.hasOwnProperty(keys)) {
+        const paper = predictedData[keys];
+        data.push({ interest: keys, title: paper.title });
+      }
+    }
+    console.log(data);
     try {
-      const renderedHtml = ejs.render(template, { titles });
+      const renderedHtml = ejs.render(template, { data });
       await sendMail(
         [email],
         "Your Research Paper from Paperpilot",
