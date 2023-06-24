@@ -60,7 +60,7 @@ PaperPilot is an innovative research paper recommendation system that leverages 
     
     ```
     $ npm run build
-    $ npm run start
+    $ npm run preview
     ```
 
 2. Server
