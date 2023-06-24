@@ -6,7 +6,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
 import logo from "../Assets/Logo.png";
 import ClipLoader from "react-spinners/CircleLoader";
-import Select from "./Select";
 
 function Login() {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -56,7 +55,6 @@ function Login() {
   return (
     <div className="w-[100%] h-[100%] flex flex-col items-center justify-center font-bold text-2xl mb-8 text-[#714CC2] text-center">
       Welcome {user.name}
-      <Select email={user.email} />
     </div>
   );
 }
