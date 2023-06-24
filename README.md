@@ -45,7 +45,36 @@ PaperPilot is an innovative research paper recommendation system that leverages 
 * Introduce collaboration and social features like sharing papers and discussion forums.
 
 
+## Installation 🔧
 
+1. Client
+  
+   Install dependencies
+  
+    ```
+    $ npm install
+    ```
+    
+    Start the server
+    
+    ```
+    $ npm run build
+    $ npm run start
+    ```
+
+2. Server
+   
+   Install Dependencies
+   ```
+   $ cd Backend
+   $ yarn
+   ```
+
+   Start the server
+   ```
+   $ yarn build
+   $ yarn start
+   ```
 
 
 ## License and Contribution Guidelines 📜
