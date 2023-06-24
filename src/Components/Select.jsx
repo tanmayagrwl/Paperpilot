@@ -19,7 +19,7 @@ function Select(props) {
       interests: selectedButtonNames,
     };
 
-    fetch(`${import.meta.env.VITE_API_ENDPOINT}/api/predict`, {
+    fetch(`${import.meta.env.VITE_API_ENDPOINT}api/predict`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
