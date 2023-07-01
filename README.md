@@ -81,6 +81,60 @@ PaperPilot is an innovative research paper recommendation system that leverages 
    $ yarn start
    ```
 
+## Project Setup ⚙️
+
+If you've downloaded the project as a zip file, follow these steps to set it up on your local machine:
+
+1. Extract the downloaded zip file to a folder of your choice.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. **Client Setup:**
+
+   - Change to the `client` directory:
+     ```
+     cd client
+     ```
+
+   - Install the client dependencies:
+     ```
+     npm install
+     ```
+
+   - Start the client server:
+     ```
+     npm run build
+     npm run preview
+     ```
+
+4. **Server Setup:**
+
+   - Change to the `Backend` directory:
+     ```
+     cd Backend
+     ```
+
+   - Install the server dependencies:
+     ```
+     yarn
+     ```
+
+   - Start the server:
+     ```
+     yarn build
+     yarn start
+     ```
+
+5. Once both the client and server are running, you can access the Paper-Pilot web app by opening your browser and navigating to `http://localhost:3000`.
+
+Please note that these instructions assume you have Node.js, npm, and yarn installed on your machine. If you don't have them installed, make sure to install them before following the above steps.
+
+Additionally, ensure that all the dependencies are successfully installed and there are no errors during the setup process.
+
+That's it! You should now have the Paper-Pilot project up and running locally on your machine.
+
+Feel free to modify the instructions as per your project structure or any specific requirements.
+
 ## License and Contribution Guidelines 📜
 
  <div align="left">
