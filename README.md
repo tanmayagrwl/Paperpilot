@@ -3,7 +3,7 @@
 ## Important Links and Resources 📃 -
 
 - [Use Paperpilot](https://paper-pilot.vercel.app/)
-- [Demo Video]()
+- [Demo Video](https://www.youtube.com/watch?v=RGYtGeoIT_I)
 - [Presentation](https://www.canva.com/design/DAFmdv2FO94/6omhOuxT2cRa-DJXr7Cqvw/edit?utm_content=DAFmdv2FO94&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### AI based research-paper recommendation with E-mail services 📚🦾
